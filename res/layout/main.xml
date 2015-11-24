@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:android_custom="http://schemas.android.com/apk/res/fd.app.accounttoken"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello APP"
-            />
-</LinearLayout>
+              android:background="@drawable/background1"
+              android:weightSum="1">
+
+    <fd.app.myview.RoundProgressBar
+            android:id="@+id/roundProgressBar2"
+            android:layout_marginTop="100dp"
+            android:layout_width="276dp"
+            android:layout_height="280dp"
+
+
+            android_custom:roundColor="#D1D1D1"
+            android_custom:roundProgressColor="@android:color/black"
+            android_custom:textColor="#9A32CD"
+            android_custom:textIsDisplayable="true"
+            android_custom:roundWidth="16dip"
+            android_custom:textSize="18sp" android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/start"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:text="start"/>
+
+</RelativeLayout>
 
