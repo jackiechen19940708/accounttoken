@@ -18,7 +18,7 @@
             android_custom:roundProgressColor="@android:color/black"
             android_custom:textColor="#9A32CD"
             android_custom:textIsDisplayable="true"
-            android_custom:roundWidth="16dip"
+            android_custom:roundWidth="17dip"
             android_custom:textSize="18sp" android:layout_centerHorizontal="true"/>
 
     <Button
